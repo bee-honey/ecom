@@ -1,7 +1,7 @@
 A Sample Ecommerce site with Springboot microservices
 
 High-Level Architecture
-![Screenshot 2023-12-28 at 9.43.59 PM.png](..%2F..%2FPictures%2FScreenshots%2FScreenshot%202023-12-28%20at%209.43.59%E2%80%AFPM.png)
+![high-level-arch.png](Resources%2Fhigh-level-arch.png)
 
 
 This project includes
