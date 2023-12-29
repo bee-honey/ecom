@@ -1,0 +1,5 @@
+package com.nakeer.productservice.dto;
+
+public class ProductRequest {
+
+}

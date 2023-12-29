@@ -1,0 +1,6 @@
+package com.nakeer.orderservice.model;
+
+@Entity
+public class Order {
+
+}

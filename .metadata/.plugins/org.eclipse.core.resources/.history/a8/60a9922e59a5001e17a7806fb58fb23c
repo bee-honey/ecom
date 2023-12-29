@@ -1,0 +1,6 @@
+package com.nakeer.orderservice.service;
+
+@Service
+public class OrderService {
+
+}

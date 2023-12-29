@@ -1,0 +1,10 @@
+package com.nakeer.orderservice;
+
+public class OrderServiceApplication {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

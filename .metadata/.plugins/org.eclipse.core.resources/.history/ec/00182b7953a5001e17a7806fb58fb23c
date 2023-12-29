@@ -1,0 +1,5 @@
+package com.nakeer.productservice.service;
+
+public class ProductService {
+
+}

@@ -1,0 +1,5 @@
+package com.nakeer.productservice;
+
+public class LocalProductServiceApplication {
+
+}
