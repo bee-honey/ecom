@@ -2,8 +2,6 @@
 
 This project is a sample e-commerce application built using a microservices architecture with Spring Boot. It demonstrates various core components of a modern microservices-based application, including service discovery, API gateway, distributed tracing, security, and more.
 
-![High-Level Architecture](high-level-arch.png)
-
 ## Project Overview
 
 The application consists of multiple microservices, each responsible for a distinct aspect of the e-commerce platform. Key features include service discovery, secure communication, resilient architecture, event-driven communication, containerization, and monitoring, making it a robust example for learning and understanding microservices architecture.
@@ -44,7 +42,7 @@ The architecture leverages multiple Spring Cloud components for a resilient and 
 - **Kafka**: Acts as the message broker for asynchronous communication between microservices.
 - **Prometheus and Grafana**: Provides monitoring and visualization of application metrics.
 
-![high-level-arch.png](Resources/Fhigh-level-arch.png)
+![high-level-arch.png](ecom/Resources/high-level-arch.png)
 
 
 ## Prerequisites
