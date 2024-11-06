@@ -62,3 +62,60 @@ To run this project, you’ll need the following:
    ```bash
    git clone https://github.com/your-username/sample-ecommerce-springboot-microservices.git
    cd sample-ecommerce-springboot-microservices
+
+2. **Configure Databases**:
+	•	Set up MongoDB and MySQL with the necessary configurations in each microservice’s application.yml.
+
+3. **Run Keycloak**:
+	•	Install and configure Keycloak for handling authentication.
+	•	Import the realm configuration file if provided.
+
+4. **Start Services with Docker Compose**:
+	•	A docker-compose.yml file is provided to start the application with all services.
+
+   ```bash
+   docker-compose up
+
+5. **Access the Eureka Dashboard**:
+   •	Eureka service discovery dashboard is available at http://localhost:8761.
+
+6. **Access the API Gateway**:
+	•	The API Gateway can be accessed at http://localhost:8080.
+
+
+## Running the Microservices
+
+To run the individual microservices locally, navigate to each service directory and use the following command:
+mvn spring-boot:run
+
+## Monitoring and Observability
+
+### Prometheus and Grafana
+
+- **Prometheus** collects metrics from each microservice, accessible at [http://localhost:9090](http://localhost:9090).
+- **Grafana** provides visualizations for these metrics, accessible at [http://localhost:3000](http://localhost:3000). You can set up dashboards in Grafana to monitor various aspects of the microservices.
+
+### Distributed Tracing
+
+Distributed tracing is enabled to trace requests as they pass through multiple microservices, helping you analyze and debug request flows.
+
+## Key Libraries and Dependencies
+
+- **Spring Boot**: Core framework for creating standalone Spring applications.
+- **Spring Cloud**: Provides tools for building distributed systems, including service discovery, circuit breakers, and API gateways.
+- **Spring Data JPA & MongoDB**: Simplifies data access with SQL (MySQL) and NoSQL (MongoDB).
+- **Kafka**: Enables event-driven communication between services.
+- **Keycloak**: Provides centralized authentication and authorization.
+- **Prometheus and Grafana**: Allows monitoring and visualization of metrics.
+
+## Project Structure
+
+Each microservice is contained within its own module, structured as follows:
+
+```plaintext
+├── product-service
+├── order-service
+├── user-service
+├── cart-service
+├── payment-service
+└── eureka-server
